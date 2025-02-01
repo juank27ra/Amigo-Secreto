@@ -33,7 +33,7 @@ function sortearAmigo() {
   const amigoAleatorio = amigos[numeroRamdon];
 
   let resultado = document.getElementById("resultado");
-  resultado.innerHTML = amigoAleatorio;
+  resultado.innerHTML = `Tu Amigo Secreto es ${amigoAleatorio}`;
 
   return;
 }
