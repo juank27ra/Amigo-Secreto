@@ -26,7 +26,7 @@ function recorrerArray() {
 }
 
 function sortearAmigo() {
-  if (!amigos.length) alert("primero agrega amigos a la Lista");
+  if (!amigos.length) return alert("primero agrega amigos a la Lista");
 
   let numeroRamdon = Math.floor(Math.random() * amigos.length);
 
